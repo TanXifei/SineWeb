@@ -1,0 +1,38 @@
+---
+title: 弦 · 应用商店
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: 源于手表，立志标杆
+  image:
+    file: https://pic2.ziyuan.wang/user/tanxifei/2025/04/Arona_e6515f5c03307.png
+  actions:
+    - text: 下载
+      link: https://drive.mcsl.com.cn/ME-Frp/Local/Others/serve/moye.sine.market.SineMarket.apk
+      icon: right-arrow
+    - text: 前往商店后台
+      link: https://open.huanjin.xin
+      icon: external
+    - text: 更多
+      link: /info/start/
+      icon: right-arrow
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="更好兼容性" icon="codePen">
+		最低兼容安卓4.4，可在更多设备上使用
+	</Card>
+	<Card title="更美观UI" icon="seti:plan">
+		更美观UI
+专门为穿戴设备设计的UI，使用更加便捷
+	</Card>
+	<Card title="下载不限速" icon="download">
+		在下载限额内，可享不限速下载
+	</Card>
+	<Card title="开放&自由" icon="open-book">
+		用户可自由上传应用，审核通过后可供其他人下载
+	</Card>
+</CardGrid>

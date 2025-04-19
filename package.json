@@ -1,0 +1,22 @@
+{
+  "name": "@example/starlight-basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "vite": {
+    "rollup": "npm:@rollup/wasm-node"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.33.1",
+    "astro": "^5.5.3",
+    "sharp": "^0.34.1",
+    "starlight-theme-rapide": "^0.4.0"
+  }
+}
