@@ -9,7 +9,7 @@ export default defineConfig({
 		starlight({
 			plugins: [starlightThemeRapide()],
 			title: '弦 · 应用商店',
-			social: [{ icon: 'seti:info', label: 'blog', href: 'https://www.tanxifei.top' }],
+			social: [{ icon: 'seti:info', label: 'blog', href: 'https://sineweb.tanxifei.top/info/start/' }],
 			sidebar: [
 				{
 					label: '应用商店',
